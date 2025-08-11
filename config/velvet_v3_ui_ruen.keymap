@@ -35,6 +35,16 @@
             key-positions = <3 4>;
             layers = <0>;
         };
+
+        left_boot {
+            bindings = <&bootloader>;
+            key-positions = <0 24 29 5>;
+        };
+
+        right_boot {
+            bindings = <&bootloader>;
+            key-positions = <6 30 35 11>;
+        };
     };
 
     macros {

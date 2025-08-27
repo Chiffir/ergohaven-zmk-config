@@ -191,7 +191,7 @@ f#include "keys_ru.h"
     };
 };
 
-&trackball { cpi = <3000>; };
+&trackball { cpi = <3200>; };
 
 &trackball_listener {
     input-processors = <&zip_xy_scaler 9 20>;
